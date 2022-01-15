@@ -1,0 +1,1 @@
+When I opened xml file of activity 1 in excel it created a table. The tags inside <myself> are taken coloumn headings.And the data inside it taken as rows.
