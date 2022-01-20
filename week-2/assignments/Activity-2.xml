@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Businesscard>
+<Card>
+<name>Joe Marini</name>
+<phone>
+- +1 (800) 555-9867 
+</phone>
+<email>joe@joe.com</email>
+</Card>
+<Card>
+<name>Mac May</name>
+<phone>
+- +1 (510) 555-1212 
+</phone>
+<email>mac@may.com</email>
+</Card>
+<Card>
+<name>Lily Hadid</name>
+<phone>
+- +1 (415) 555-1234 
+</phone>
+<email>Lily@Hadid.com</email>
+</Card>
+<Card>
+<name>Chloey Marini</name>
+<phone>
+- +1 (800) 555-9867 
+</phone>
+<email>Chloey@joe.com</email>
+</Card>
+</Businesscard>
