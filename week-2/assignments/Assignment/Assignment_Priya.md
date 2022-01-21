@@ -4,6 +4,7 @@ It contain a error in line 11 that is there is space in effective and date which
 ![image](file_selected.PNG)
 ![image](No_error.PNG)
 2. What is the use of CDATA block in this document?
+CDATA used in conceal the symbolic expresion in xml.
 3.  Add comment line to the end of file which contains you name and student id.
 ![image](Comment_line.PNG)
 4. Identify prolog, document body, and epilog in the document. Are there any processing instructions?
