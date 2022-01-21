@@ -1,0 +1,23 @@
+originalName{
+    font-size: large;
+}
+menu{
+    float: left;
+}
+menu:nth-child(n+1){
+    clear: left;
+}
+
+menuInfo{
+    background-color: grey;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+category{
+    font-size: larger;
+    color:aquamarine;
+    font-style: Tahoma;
+}
+title{
+    font-size: x-large;
+    font-weight: bold;
+}
