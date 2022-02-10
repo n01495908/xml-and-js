@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+[ <!ELEMENT products (product+)>
+  <!ELEMENT product (name, sizes, prices)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT sizes (size+)>
+  <!ELEMENT size (#PCDATA)>
+  <!ELEMENT prices (price+)>
+  <!ELEMENT price (#PCDATA)>
+  <!ATTLIST product product_id CDATA #REQUIRED>
+  <!ATTLIST price currency CDATA #REQUIRED>
+]>
+<products>
+    <product product_id="a332d8d2-86d7-11ec-a8a3-0242ac120002">
+        <name>Microfleece Hoodie</name>    
+        <sizes>
+            <size>XS - 0 items</size>
+            <size>S - 3 items</size>
+            <size>M - 13 items</size>
+            <size>L - 5 items</size>
+            <size>XL - 2 items</size>
+        </sizes>
+        <prices>
+            <price currencyu="USD">$49.99</price>
+            <price currency="CAD">$59.99</price>
+        </prices>
+    </product>
+    <product product_id="a332dac6-86d7-11ec-a8a3-0242ac120002">
+        <name>Vintage Soft Hoodie</name>
+        <sizes>
+            <size>XS - 3 items</size>
+            <size>S - 8 items</size>
+            <size>M - 25 items</size>
+            <size>L - 12 items</size>
+            <size>XL - 4 items</size>
+        </sizes>
+        <prices>
+            <price currency="USD">$39.99</price>
+            <price currency="CAD">$49.99</price>
+        </prices>
+    </product>
+    <product product_id="a332dac6-86d7-11ec-a8a3-0242ac120002">
+        <name>Crewneck Sweatshirt</name>
+        <sizes>
+            <size>XS - 0 items</size>
+            <size>S - 0 items</size>
+            <size>M - 15 items</size>
+            <size>L - 13 items</size>
+            <size>XL - 0 items</size>
+        </sizes>
+        <prices>
+            <price currency="CAD">$47.97</price>
+        </prices>
+    </product>
+    <product product_id="a332dac6-86d7-11ec-a8a3-0242ac120002">
+        <name>French Terry Raglan Crewneck Sweatshirt</name>
+        <sizes>
+            <size>XS - 0 items</size>
+            <size>S - 0 items</size>
+            <size>M - 0 items</size>
+            <size>L - 1 items</size>
+            <size>XL - 0 items</size>
+        </sizes>
+        <prices>
+            <price currency="USD">$37.97</price>
+        </prices>
+    </product>
+</products>
