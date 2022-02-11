@@ -1,0 +1,10 @@
+[ <!ELEMENT products (product+)>
+  <!ELEMENT product (name, sizes, prices)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT sizes (size+)>
+  <!ELEMENT size (#PCDATA)>
+  <!ELEMENT prices (price+)>
+  <!ELEMENT price (#PCDATA)>
+  <!ATTLIST product product_id CDATA #REQUIRED>
+  <!ATTLIST price currency CDATA #REQUIRED>
+]>

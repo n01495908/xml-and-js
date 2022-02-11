@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <label for="EnterName">Full Name:</label><br>
+            <input type="text" id="EnterName" name="EnterName"><br>
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <p>Which food would you prefer:</p>
+            <input type="checkbox" id="food" name="food1" value="Indian">
+            <label for="food1">Indian</label><br>
+            <input type="checkbox" id="food2" name="food2" value="Italian">
+            <label for="food2">Italian</label><br>
+            <input type="checkbox" id="food3" name="food3" value="Other">
+            <label for="food3">Other</label><br>
+            <input type="submit" value="Submit" onclick="output()">
+            <script>
+                function output() 
+                {
+                console.log("Your response has been submitted");
+                }
+            </script>
+        </fieldset>
+    </form>    
+</body>
+</html>
