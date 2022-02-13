@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Test Input</title>
+  </head>
+  <body>
+    <form onreset="onReset()">
+      <input
+        type="text"
+        name="name"
+        id="input-name-term"
+        placeholder="Find Here"
+      />
+      <button type="submit">Apply filters</button>
+      <button type="reset">Reset</button>
+    </form>
+    <table id="table-main" border="5">
+      <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Gender</th>
+        <th>IP Address</th>
+      </tr>
+    </table>
+    <script type="text/javascript" src="render-table.js"></script>
+    <script type="text/javascript" src="reset-filters.js"></script>
+  </body>
+</html>
