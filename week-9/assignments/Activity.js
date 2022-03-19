@@ -1,4 +1,4 @@
-const table = document.getElementById("table-body");  //access table
+const table = document.getElementById("table-body");  
 const filterNames = ['first_name', 
 'last_name', 
 'email', 
